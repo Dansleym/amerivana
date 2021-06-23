@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="swiper-container"
+        style="
+          background: url('thomas_jefferson.jpg') center no-repeat;
+          background-size: cover;
+        "
+      >
+        <img src="huwk.png" alt="huvk" />
+        <h1 class="title">
+          Americana Advisors
+        </h1>
+        <h4 class="subtitle">Trusted Advice.</h4>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <p class="text">
+              “In matters of style, swim with the current; in matters of
+              principle, stand like a rock.” Thomas Jefferson
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="text">
+              “In matters of style, swim with the current; in matters of
+              principle, stand like a rock.” Thomas Jefferson
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p class="text">
+              “In matters of style, swim with the current; in matters of
+              principle, stand like a rock.” Thomas Jefferson
+            </p>
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+
+        <div class="banner-controllers">
+          <button class="banner-controller button button-prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="7"
+              fill="none"
+              viewBox="0 0 14 7"
+            >
+              <path
+                fill="#A1A3A5"
+                d="M4.19 4.69h9.435A.375.375 0 0014 4.317v-1.75a.375.375 0 00-.375-.375H4.189V.75a.75.75 0 00-1.28-.53l-2.69 2.69a.75.75 0 000 1.06l2.69 2.69a.75.75 0 001.28-.53V4.69z"
+              />
+            </svg>
+            <span>PRE</span>
+          </button>
+
+          <button class="banner-controller button button-next">
+            <span>NEXT</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="7"
+              fill="none"
+              viewBox="0 0 14 7"
+            >
+              <path
+                fill="#A1A3A5"
+                d="M9.81 2.19H.376A.375.375 0 000 2.567v1.75c0 .207.168.375.375.375h9.436v1.44a.75.75 0 001.28.53l2.69-2.69a.75.75 0 000-1.06L11.09.22a.75.75 0 00-1.28.53v1.44z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var mySwiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
+</html>

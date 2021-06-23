@@ -1,0 +1,33 @@
+    <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+    </svg>
+
+
+
+
+
+
+
+
+
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+
+}
+svg circle {
+  fill: none;
+  stroke-dashoffset: calc(440 - (440 * 85) / 100);
+  stroke: red;
+  stroke-width: 10;
+  transform: translate(5px ,5px);
+
+  &:nth-child(2){
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+    stroke: lime;
+  }
+}

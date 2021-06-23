@@ -1,0 +1,44 @@
+
+    <div class="avatar-wrapper">
+        <div class="avatar">
+            <img src="img/clock2.jpg" alt="clock" class="avatar__image">
+        </div>
+
+        <div id="social" class="social-icons">
+            <div class="icon"><div class="iconzzz"></div></div>
+        </div>
+        <div id="social2" class="social-icons">
+            <div class="icon"><div class="iconzzz" style="width: 70px;border-bottom: 8px solid black;"></div></div>
+        </div>
+        <div id="social3" class="social-icons">
+            <div class="icon"><div class="iconzzz" style="width: 120px;border-bottom: 5px solid black;"></div></div>
+        </div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam magni non perspiciatis repudiandae sint suscipit. Aspernatur beatae eligendi et laborum minus quos repellendus, veritatis. Distinctio officia possimus sunt voluptatem?</h1>
+
+
+    <script>
+        let i = 0;
+        let k = 6;
+        let j = 6;
+        function moveBlock() {
+            if( i > 360) {
+                i = 6;
+                if(k > 360){
+                    k = 6;
+                    if(j > 360) {
+                        j = 6;
+                    } else {
+                        document.getElementById("social2").style.transform = "rotate(" + j +"deg)";
+                        j+=6;
+                    }
+                } else {
+                    document.getElementById("social3").style.transform = "rotate(" + k +"deg)";
+                    k+=6;
+                }
+            }
+            document.getElementById("social").style.transform = "rotate(" + i +"deg)";
+            i+=6;
+        }
+        setInterval(moveBlock, 1000);
+    </script>

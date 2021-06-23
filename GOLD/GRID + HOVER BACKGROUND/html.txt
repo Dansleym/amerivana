@@ -1,0 +1,58 @@
+    <div class="grid">
+
+        <div class="grid__item grid__item--3">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+
+        </div>
+        <div class="grid__item grid__item--6">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+        </div>
+        <div class="grid__item grid__item--3">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+        </div>
+        <div class="grid__item grid__item--3">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+        </div>
+        <div class="grid__item grid__item--5">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+        </div>
+        <div class="grid__item grid__item--4">
+            <div class="grid__description">
+                <h2 class="grid__title">Test Title</h2>
+                <p class="grid__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere nihil quasi veniam.
+                    Aspernatur
+                </p>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,10 @@
+
+        width: 100%;
+        background: url('corner_lt.png') 20px 20px no-repeat,
+          url('corner.png') top 20px right 20px no-repeat,
+          url('corner_rb.png') bottom 20px right 20px no-repeat,
+          url('corner_lb.png') bottom 20px left 20px no-repeat;
+        outline: 1px solid gold;
+        outline-offset: -10px;
+        padding: 20px;
+

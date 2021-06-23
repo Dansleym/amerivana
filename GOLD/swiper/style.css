@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1900px;
+  height: 100%;
+  margin: 0 auto;
+}
+.swiper-container {
+  min-height: 875px;
+  height: 1px;
+  text-align: center;
+  padding: 160px 0 115px 0 !important;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.title {
+  font-size: 79px;
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+}
+.subtitle {
+  font-size: 37px;
+  color: #a1a3a5;
+  margin: 0;
+}
+.text {
+  font-size: 26px;
+  letter-spacing: 2px;
+
+  font-style: italic;
+  text-align: right;
+  max-width: 550px;
+  padding: 0 5px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.button {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-controllers {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.banner-controller {
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  padding: 33px 56px;
+  color: black;
+  font-weight: 700;
+}
+.banner-controller path {
+  fill: black;
+}
+
+.banner-controller span {
+  padding: 0 8px;
+}
+
+.banner-controller:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}

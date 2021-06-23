@@ -1,0 +1,4 @@
+
+            <div class="image-aspect-ratio">
+                <img class="image" src="img/flower_gallery_rose1.jpg" alt="flowers1">
+            </div>

@@ -1,0 +1,11 @@
+
+    <div class="panel"><p><</p>
+        <div class="panel__hidden">
+            <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ul>
+        </div>
+    </div>

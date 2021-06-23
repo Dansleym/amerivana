@@ -1,0 +1,30 @@
+    <nav>
+        <ul class="header__menu">
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Hello</a>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">About</a>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Services</a>
+                <ul class="header__menu-submenu">
+                    <li class="header__menu-element"><a class="header__menu-link" href="#">SubMenu 1</a></li>
+                    <li class="header__menu-element"><a class="header__menu-link" href="#">SubMenu 2</a></li>
+                    <li class="header__menu-element"><a class="header__menu-link" href="#">SubMenu 3</a></li>
+                </ul>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Portfolio</a>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Team</a>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Blog</a>
+            </li>
+            <li class="header__menu-element">
+                <a class="header__menu-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>

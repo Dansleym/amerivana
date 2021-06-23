@@ -1,0 +1,37 @@
+.menu {
+  padding 0;
+  margin 0 -5px 0 0;
+  text-align center;
+
+  .menu__element {
+    display block;
+    background-color #81868e;
+    list-style none;
+    width 120px;
+    transition-duration 500ms;
+    transition-property background-color;
+    padding 10px 0;
+    cursor pointer;
+    margin-right 5px;
+    border-radius 2px;
+
+    &hover {
+      background-color aliceblue;
+    }
+  }
+
+  .menu__link {
+    display block;
+    color inherit;
+    &link { text-decoration none;color inherit;}
+    &visited { text-decoration none;color inherit; }
+    &active { text-decoration none;color inherit; }
+    &hover { text-decoration none;color inherit; }
+  }
+
+  @media (max-width 1200px) {
+    .menu__element {
+      margin-bottom 5px;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+#area {
+  height: 450px;
+  width: 450px;
+  margin: 250px auto;
+  background-color: #81868e;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#text-help {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+}
+.area__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: 2px solid darkorange;
+  cursor: pointer;
+}
+
+#pop-up-winner {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  padding: 20px 10px;
+  width: 450px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  background-color: dimgray;
+  color: white;
+  border-radius: 5px;
+
+  &::before {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  #winner {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+#pop-up__button {
+  display: block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: skyblue;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 500ms;
+
+  &:hover {
+    background-color: darken(skyblue, 50%);
+    color: white;
+  }
+}

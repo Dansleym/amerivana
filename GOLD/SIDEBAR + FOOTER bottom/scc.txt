@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  background-color: #81868e;
+  border: 1px solid red;
+}
+
+.main {
+  display: flex;
+  flex: 1 0 auto;
+
+  .main-content {
+    background-color: #b08d5d;
+  }
+  .aside {
+    width: 20%;
+    margin: 20px;
+  }
+}
+
+.footer {
+  background-color: #81868e;
+  border: 1px solid red;
+}

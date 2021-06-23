@@ -1,0 +1,46 @@
+.read-more-link {
+	text-transform: uppercase;
+	color: $Lochmara;
+	text-decoration: none;
+	font-family: $Lato;
+	font-weight: 700;
+	word-spacing: 4px;
+	position: relative;
+	display: inline-block;
+	transition-duration: 500ms;
+	transition-property: color;
+	max-width: 150px;
+
+	.read-more-link-arrow {
+		margin: 0 0 3px 4px;
+	}
+
+	&:link {
+		color: $Lochmara;
+		.read-more-link-arrow path {
+			fill: $Lochmara;
+		}
+	}
+	&:visited {
+		color: $Lochmara;
+		.read-more-link-arrow path {
+			fill: $Lochmara;
+		}
+	}
+	&:hover {
+		color: $SkyBlue;
+		.read-more-link-arrow path {
+			fill: $SkyBlue;
+			transition-duration: 500ms;
+			transition-property: fill;
+		}
+	}
+	&:active {
+		color: $SkyBlue;
+		.read-more-link-arrow path {
+			fill: $SkyBlue;
+			transition-duration: 500ms;
+			transition-property: fill;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.panel {
+  position: fixed; /* положение */
+  top: 100px; /* отступ сверху */
+  left: 0; /* отступ слева */
+  background: green; /* цвет фона */
+  width: 10px; /* ширина блока */
+  height: 40px; /* высота блока */
+  font: 14px Arial; /* размер и тип шрифта */
+  color: #fff; /* цвет текста */
+  text-align: center; /* выравнивание текста по центру */
+
+  transition-duration: 0.5s;
+  border-radius: 0 5px 5px 0;
+}
+
+.panel__hidden {
+  position: fixed; /* положение */
+  top: 100px; /* отступ сверху */
+  left: -1000px; /* отступ слева */
+  background: lavender; /* цвет фона */
+  color: #000; /* цвет текста */
+  width: auto; /* ширина блока */
+  height: 400px; /* высота блока */
+  padding: 10px; /* отступы от границ внутри блока */
+  text-align: left; /* выравнивание текста */
+
+  transition-duration: 0.5s;
+
+  border-radius: 0 5px 5px 0;
+}
+.panel:hover {
+  right: 0;
+}
+.panel:hover .panel__hidden {
+  left: 0;
+}

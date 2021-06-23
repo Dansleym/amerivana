@@ -1,0 +1,44 @@
+    <div class="wrapper">
+        <header class="header"><h2>world!</h2></header>
+        <main class="main">
+            <aside class="aside">
+                <ul style="background-color: yellow;">
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                </ul>
+
+                <ul style="margin-top: 50px;background-color: aqua">
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                </ul>
+            </aside>
+            <div class="main-content">
+                <h2>Hello world</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, beatae consectetur delectus distinctio ea error fuga laudantium non perspiciatis quis quisquam quo quod rerum sapiente, sed tenetur totam ullam ut?</p>
+            </div>
+            <aside class="aside">
+                <ul style="background-color: yellow;">
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                </ul>
+
+                <ul style="margin-top: 50px;background-color: aqua">
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                    <li>menu 1 test</li>
+                </ul>
+            </aside>
+        </main>
+        <footer class="footer"><h3>hello</h3></footer>
+    </div>

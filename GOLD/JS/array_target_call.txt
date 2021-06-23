@@ -1,0 +1,3 @@
+let index = -1;
+index = Array.prototype.indexOf.call(ul, li);
+
